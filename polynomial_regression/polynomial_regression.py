@@ -25,7 +25,7 @@ def polynomial_regression():
 
     # print(lin_reg_2.coef_)
     # print(lin_reg_2.intercept_)
-
+    # from SVR 252789
     y_lin_pred = regressor.predict([[6.5]])
     print("The predicted salary is for linear reg: ", y_lin_pred)
 
