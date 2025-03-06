@@ -32,6 +32,6 @@ def inspect(results):
 
 resultsinDataFrame = pd.DataFrame(inspect(results), columns=['Product 1', 'Product 2', 'Support'])
 
-resultsinDataFrameSorted = resultsinDataFrame.nlargest(n = 10, columns = 'Support')
+resultsinDataFrameSorted = resultsinDataFrame.nlargest(n=10, columns='Support')
 
 print(resultsinDataFrameSorted)
