@@ -10,7 +10,7 @@ dataset = pd.read_csv('Ads_CTR_Optimisation.csv')
 
 import random
 
-N = 10000  # these are no of users
+N = 500  # these are no of users
 d = 10  # number of the ads
 ads_selected = []
 number_of_rewards_1 = [0] * d
